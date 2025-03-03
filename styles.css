@@ -1,0 +1,83 @@
+h1 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.title {
+    border-style: dotted;
+    padding: 30px;
+    border-radius: 25px;
+    color: aqua;
+}
+
+body {
+    background: linear-gradient(to right, white, black);
+}
+/* A little bit of chatgpt has been used to correct some code */
+.bostonterriers {
+    display: flex; 
+    flex-direction:row; /* Change from column to row */
+    flex-wrap: wrap;
+    padding: 10px;
+    
+    
+    align-items: center; /* Vertically centers items */
+}
+
+.kirk1 {
+    display: flex;
+    width: 30%; 
+    border-radius: 25px;
+    border-style: solid;
+    flex-wrap: wrap;
+    
+}
+
+
+.about {
+    color: aqua;
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px; /* Adds space between the image and text */
+    border-style: solid;
+    padding: 5px;
+    border-radius: 25px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.pros {
+    color:lime;
+    font-size: 25px;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.cons {
+    color:red;
+    font-size: 25px;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+   
+    
+}
+.final-info {
+    color:greenyellow;
+    font-size: 25px;
+    display: flex;
+    flex-shrink: 5px;
+    justify-content: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: dotted;
+    border-radius: 30px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+h2 {
+    text-align: center;
+    color: orange;
+    background-color: black;
+}
