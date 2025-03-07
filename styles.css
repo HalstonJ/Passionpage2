@@ -81,3 +81,19 @@ h2 {
     color: orange;
     background-color: black;
 }
+
+a:visited {
+    color: purple;
+    
+}
+
+
+a:link {
+    font-size: 30px;
+    color: yellow;
+}
+a:hover {
+    font-size: 36px;
+    color: lime;
+    background-color: black;
+}
